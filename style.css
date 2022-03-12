@@ -1,0 +1,47 @@
+body {
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 50px 50px;
+  justify-content: center;
+  margin: 20px;
+  padding: 30px;
+}
+
+.head {
+  text-align: center;
+}
+.score {
+  font-size: 1.5em;
+  color: darkcyan;
+}
+.hole {
+  border: 5px solid black;
+  border-radius: 50%;
+  background-color: black;
+  height: 60px;
+  overflow: hidden;
+}
+.btn {
+  text-align: center;
+  font-size: 1.5em;
+  background-color: aqua;
+  border: 1px solid aqua;
+}
+.mole {
+  background-color: red;
+}
+/* @keyframes appear {
+  from {
+    bottom: -50px;
+  }
+  to {
+    bottom: 0px;
+  }
+} */
